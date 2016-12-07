@@ -16,6 +16,7 @@ Some of the .m files for working with figures were obtained from outside sources
 
 1. set_figure_size.m: From David F. Gleich's mcode software package. (https://github.com/dgleich/mcode)
 2. Process_atendHeader(filein,fileout) https://www.mathworks.com/matlabcentral/newsreader/view_thread/337705
+3. simplex_coordinates1.m: code to generate coordinates of vertices of a regular simplex, by John Burkardt (http://people.sc.fsu.edu/~jburkardt/). Available at https://people.sc.fsu.edu/~jburkardt/m_src/simplex_coordinates/simplex_coordinates1.m
 
 ### Dependencies
 
