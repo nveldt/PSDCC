@@ -1,6 +1,6 @@
 ## Low-Rank Positive Semidefinite Correlation Clustering
 
-Included is all the code for the implementation of the ZonoCC algorithm of Veldt, Wirth, and Gleich for positive semidefinite correlation clustering.
+Included here is all the code for the implementation of the ZonoCC algorithm of Veldt, Wirth, and Gleich for positive semidefinite correlation clustering.
 
 Also included are implementations of other commonly used correlation clustering algorithms.
 
