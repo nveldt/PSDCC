@@ -55,17 +55,13 @@ ExactClustering = result.x;
 G = zeros(n,n);
 
 for i = 1:N
-    %connect = stats(i,1);
-    %G(stats(i,3),stats(i,4)) = 1-connect;
      connect = ExactClustering(i);
      G(rA(i),cA(i)) = 1-connect;
 end
 G = G + G';
 
-C = connectedcomps(G);
-c = zeros(n,1);
-for i = 1:size(C,2)
-    c = c + i*C(:,i);
-end
+% Performing pivot on the perfect clustering solution gives the connected
+% components
+[C,c] = PivotCC(G);
 
 end
